@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: Arial, "Noto Sans JP", sans-serif;
+  color: #222;
+}
+/* プロフィール */
+.profile {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.profile-card {
+  width: 300px;
+  height: 220px;
+  background-color:#fff;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+.profile-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 15px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 7px;
+}
+.profile-card h1 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+.profile-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+/* スキルセット */
+.skills {
+  width: 580px;
+  margin: 48px auto 0;
+}
+.skills h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* テーブル */
+table {
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 10px;
+  background-color:#fff;
+  font-size: 13px;
+  overflow: hidden;
+}
+thead {
+  background-color: #0078D4;
+  color: white;
+}
+th,
+td {
+  height: 20px;
+  padding: 0 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  font-weight: normal;
+}
+th:nth-child(1),
+td:nth-child(1) {
+  width: 35%;
+}
+th:nth-child(2),
+td:nth-child(2) {
+  width: 30%;
+}
+th:nth-child(3),
+td:nth-child(3) {
+  width: 35%;
+  text-align: center;
+}
+  tbody tr:hover {
+    background-color: #f2f2f2;
+  }

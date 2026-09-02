@@ -219,6 +219,7 @@ border: solid 1px #000;
 
 .grid-main{
   display: grid;
+  display: grid;
   padding: 40px;
   gap: 40px;
   border: solid 1px #000;

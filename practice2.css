@@ -1,0 +1,112 @@
+body{
+    background-color:#f9f9f9 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.header{
+    text-align: center;
+    color: #fff;
+    padding: 50px 20px 50px 20px;
+    background-image: url(https://prcdn.freetls.fastly.net/release_image/2319/638/2319-638-2f5b50e1a87336048ef56335c14cf1e4-1600x900.jpg?format=jpeg&auto=webp&quality=85%2C65&width=1950&height=1350&fit=bounds);
+    background-position:50% 70% ;
+}
+
+.h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.p{
+    font-size: 18px;
+}
+
+.cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+}
+
+.title1{
+    padding: 10px;
+    border-right: solid 1px #ddd;
+}
+
+.title2{
+    padding: 10px;
+    border-right: solid 1px #ddd;
+}
+
+.title3{
+    padding: 10px;
+}
+
+.h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 14px;
+    color: #666;
+}
+
+.table-section{
+    text-align: center;
+    margin: 30px auto;
+    max-width: 80%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+thead{
+    background-color: #0078d4;
+    color: white;
+}
+
+th,
+td{
+    height: 20px;
+    padding: 12px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: normal;
+}
+th:nth-child(1),
+td:nth-child(1) {
+    width: 35%;
+}
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+}
+th:nth-child(3),
+td:nth-child(3) {
+    width: 35%;
+    text-align: center;
+}
+tbody tr:hover {
+    background-color: #f2f2f2;
+}

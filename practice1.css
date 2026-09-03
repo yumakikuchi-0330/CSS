@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 50px auto;
+    background-color:#f7f7f7 ;
+    font-family: Arial, sans-serif;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.profile-card{
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    width: 300px;
+    background-color: white;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+}
+
+.h1{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.p{
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.skills{
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.h2{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px 0px;
+    border-collapse:collapse ;
+}
+thead{
+    background-color: #0078d4;
+    color: white;
+}
+
+th,
+td{
+    height: 20px;
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: normal;
+}
+th:nth-child(1),
+td:nth-child(1) {
+    width: 35%;
+}
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+}
+th:nth-child(3),
+td:nth-child(3) {
+    width: 35%;
+    text-align: center;
+}
+tbody tr:hover {
+    background-color: #f2f2f2;
+}

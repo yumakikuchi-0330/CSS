@@ -35,23 +35,23 @@ body{
     flex-direction: row;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
     gap: 10px;
 }
 
-.title1{
+.title1-card{
     padding: 10px;
     border-right: solid 1px #ddd;
 }
 
-.title2{
+.title2-card{
     padding: 10px;
     border-right: solid 1px #ddd;
 }
 
-.title3{
+.title3-card{
     padding: 10px;
 }
 
@@ -60,7 +60,7 @@ body{
     margin-bottom: 10px;
 }
 
-.card p{
+.p{
     font-size: 14px;
     color: #666;
 }
@@ -69,29 +69,40 @@ body{
     text-align: center;
     margin: 30px auto;
     max-width: 80%;
+    border-collapse:collapse ;
 }
 
-table{
+.table-h2{
+    margin-bottom: 20px;
+}
+
+.table-name{
     width: 100%;
     text-align: center;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-thead{
+.table-thead{
     background-color: #0078d4;
     color: white;
 }
 
-th,
-td{
-    height: 20px;
+.table-th{
+    height:20px;
     padding: 12px 20px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
 
-th {
+.table-td{
+    height:20px;
+    padding: 12px 20px;
+    text-align: center;
+    border: 1px solid #ddd
+}
+
+.table-tr{
     font-weight: normal;
 }
 th:nth-child(1),

@@ -111,19 +111,7 @@ body{
 .table-tr{
     font-weight: normal;
 }
-th:nth-child(1),
-td:nth-child(1) {
-    width: 35%;
-}
-th:nth-child(2),
-td:nth-child(2) {
-    width: 30%;
-}
-th:nth-child(3),
-td:nth-child(3) {
-    width: 35%;
-    text-align: center;
-}
+
 .table-tr:hover{
     background-color: #f2f2f2;
 }

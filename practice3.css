@@ -1,0 +1,285 @@
+.headder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 270px;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.images{
+    width: 10%;
+    height: 10%;
+    padding: 15%;
+}
+.right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    height: 270px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contents{
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.icon{
+    width: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design{
+    height: 300px;
+    width: 100%;
+}
+.contents-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 84px;
+    align-items: center;
+    max-width: 960px;
+}
+
+.contents-about2{
+    font-weight: bold;
+    font-size: 27px;
+    padding-bottom: 1px;
+}
+
+.big{
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.contents1{
+    padding: 30px auto 1px;
+}
+
+.text{
+    margin-top: 30px;
+}
+
+.contents-works2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.works2{
+    font-weight: bold;
+    font-size: 27px;
+    margin: 50px auto 66px;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image-container-img1{
+    width: 30%;
+    margin-bottom: 23px;
+}
+
+.image-container-img2{
+    width: 30%;
+    margin-bottom: 23px;
+}
+
+.image-container-img3{
+    width: 30%;
+    margin-bottom: 23px;
+}
+
+.image-container-img4{
+    width: 30%;
+    margin-bottom: 23px;
+}
+
+.image-container-img5{
+    width: 30%;
+    margin-bottom: 23px;
+}
+
+.image-container-img6{
+    width: 30%;
+    margin-bottom: 23px;
+}
+
+.contents-news2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 960px;
+    padding: 0 4%;
+    margin: 80px auto 80px auto;
+}
+
+.news-main{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #C8C8C8;
+}
+
+.news-first{
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-date1{
+    margin: 0;
+    padding: 15px;
+    width: 69%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-second{
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-date2{
+    margin: 0;
+    padding: 15px;
+    width: 69%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-third{
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-date3{
+    margin: 0;
+    padding: 15px;
+    width: 69%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-fourth{
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-date4{
+    margin: 0;
+    padding: 15px;
+    width: 69%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-fifth{
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.news-date5{
+    margin: 0;
+    padding: 15px;
+    width: 69%;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+
+.contents-contact2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 960px;
+    padding: 0 4%;
+    margin: 80px auto 80px auto
+}
+
+.contact-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact-name{
+    width: 10%;
+}
+
+.name-box{
+    height: 60px;
+    width: 80%;
+}
+
+.input-text{
+    width: 100%;
+    height: 35px;
+}
+
+.contact-mail{
+    width: 10%;
+}
+
+.mail-box{
+    height: 60px;
+    width: 80%;
+}
+
+.input-email{
+    width: 100%;
+    height: 35px;
+}
+
+.contact-message{
+    width: 10%;
+}
+
+.message-box{
+    height: 120px;
+    width: 80%;
+}
+
+.input-message{
+    width: 100%;
+    height:140px;
+}
+
+.button-main{
+    display: block;
+    width: 200px;
+    height: 52px;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}

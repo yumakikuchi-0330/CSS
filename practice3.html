@@ -3,105 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML,CSS総合課題3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="practice3.css">
 </head>
 <body>
-    <div class="headder">
+    <div class="header">
         <img class="images" src="images/My Work.png" alt="mywork">
         <div class="right">
             <ul class="contents">
-                <li class="about1">About</li>
-                <li class="works-2">Works</li>
-                <li class="news3">News</li>
-                <li class="contact4">Contact</li>
-                <img class="icon" src="https://code-jump.com/demo/html/portfolio1/img/icon-instagram.png" alt
-                ="icon" />
+                <li class="contents li"><a href="#contents-about2">About</a></li>
+                <li class="contents li"><a href="#contents-works2">Works</a></li>
+                <li class="contents li"><a href="#contents-news2">News</a></li>
+                <li class="contents li"><a href="#contents-contact2">Contact</a></li>
+                <li><a href="https://www.instagram.com/">
+                    <img class="icon" src="https://code-jump.com/demo/html/portfolio1/img/icon-instagram.png" alt="icon" />
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
     <div class="main">
-        <img class="design" src=
-        "https://code-jump.com/demo/html/portfolio1/img/mainvisual-pc.jpg" alt
-        ="写真">
+        <div class="design-main">
+            <img class="design" src="https://code-jump.com/demo/html/portfolio1/img/mainvisual-pc.jpg" alt="写真">
+        </div>
         <div class="contents-main">
-            <div class="contents-about2">About</div>
+            <h2 id="contents-about2" class="contents-about2">About</h2>
             <div class="big">
                 <div class="title">Xxxxx Ashley</div>
                 <div class="contents0">
                     <div class="contents1">2th Floor xxxxx Building x-x-x Nishiazabu,Minato-ku,tokyo 106-0031 japan</div>
                     <div class="contents2">
                         <div class="contents3">tel:000-0000-000</div>
-                        <div class="contents4">url:www.xxxxxx.jp</div>
-                        <div class="contents5">mail:xxx@xxxxxx.jp</div>
+                        <div class="contents3">url:www.xxxxxx.jp</div>
+                        <div class="contents3">mail:xxx@xxxxxx.jp</div>
                     </div>
                 </div>
                 <div class="text">プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテストテキストテキストテキストテキスト</div>
             </div>
+            </section>
         </div>
     </div>
         <div class="contents-works2">
-            <div class="works2">Works</div>
+            <h2 id="contents-works2" class="works2">Works</h2>
             <div class="image-container">
-                <img class="image-container-img1" src="https://code-jump.com/demo/html/portfolio1/img/works1.jpg" alt
+                <img class="image-container-img" src="https://code-jump.com/demo/html/portfolio1/img/works1.jpg" alt
                 ="image-container-img1">
-                <img class="image-container-img2" src="https://code-jump.com/demo/html/portfolio1/img/works2.jpg" alt
+                <img class="image-container-img" src="https://code-jump.com/demo/html/portfolio1/img/works2.jpg" alt
                 ="image-container-img2">
-                <img class="image-container-img3" src="https://code-jump.com/demo/html/portfolio1/img/works3.jpg" alt
+                <img class="image-container-img" src="https://code-jump.com/demo/html/portfolio1/img/works3.jpg" alt
                 ="image-container-img3">
-                <img class="image-container-img4" src="https://code-jump.com/demo/html/portfolio1/img/works4.jpg" alt
+                <img class="image-container-img" src="https://code-jump.com/demo/html/portfolio1/img/works4.jpg" alt
                 ="image-container-img4">
-                <img class="image-container-img5" src="https://code-jump.com/demo/html/portfolio1/img/works5.jpg" alt
+                <img class="image-container-img" src="https://code-jump.com/demo/html/portfolio1/img/works5.jpg" alt
                 ="image-container-img5">
-                <img class="image-container-img6" src="https://code-jump.com/demo/html/portfolio1/img/works6.jpg" alt
+                <img class="image-container-img" src="https://code-jump.com/demo/html/portfolio1/img/works6.jpg" alt
                 ="image-container-img6">
             </div>
         </div>
         <div class="contents-news2">
-            <h2 class="title2">News</h2>
-            <dl class="news-main">
-                <dt class="news-first">2020.XX.XX</dt>
-                <dd class="news-date1">デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
-                </dd>
-
-                <dt class="news-second">2020.XX.XX</dt>
-                <dd class="news-date2">ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。
-                </dd>
-
-                <dt class="news-third">2019.XX.XX</dt>
-                <dd class="news-date3">【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
-                </dd>
-
-                <dt class="news-fourth">2019.XX.XX</dt>
-                <dd class="news-date4">デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。
-                </dd>
-
-                <dt class="news-fifth">2019.XX.XX</dt>
-                <dd class="news-date5">【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
-                </dd>
-            </dl>
+            <h2 id="contents-news2" class="title2">News</h2>
+            <div class="news-main">
+            <div class="news-main1">
+                <div class="news-main2">2020.XX.XX</div>
+                <div class="news-main3">デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。
+                </div>
+            </div>
+            <div class="news-main1">
+                <div class="news-main2">2020.XX.XX</div>
+                <div class="news-main3">ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。
+                </div>
+            </div>
+            <div class="news-main1">
+                <div class="news-main2">2019.XX.XX</div>
+                <div class="news-main3">【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+                </div>
+            </div>
+            <div class="news-main1">
+                <div class="news-main2">2019.XX.XX</div>
+                <div class="news-main3">デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。
+                </div>
+            </div>
+            <div class="news-main1">
+                <div class="news-main2">2019.XX.XX</div>
+                <div class="news-main3">【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+                </div>
+            </div>
+            </div>
         </div>
-        <div class="contents-contact2">
-            <h2 class="title4">Contact</h2>
+        <div class="contents-contact3">
+            <h2 id="contents-contact-h2"class="title4">Contact</h2>
             <dl class="contact-main">
                 <dt class="contact-name">
                     <label for="name">NAME</label>
                 </dt>
                 <dd class="name-box">
-                    <input type="text" class="input-text">
+                    <input type="text" name="name" id="name-box" class="input-text">
                 </dd>
 
                 <dt class="contact-mail">
                     <label for="mail">E-mail</label>
                 </dt>
                 <dd class="mail-box">
-                    <input type="mail= id="E-mail name="E-mail" class="input-email">
+                    <input type="email" id="mail" name="mail" class="input-email">
                 </dd>
 
                 <dt class="contact-message">
                     <label for="message">MESSAGE</label>
                 </dt>
                 <dd class="message-box">
-                    <input type="text" class="input-message">
+                    <textarea name="comment" class="textarea-message"></textarea>
                 </dd>
             </dl>
             <div class="button">

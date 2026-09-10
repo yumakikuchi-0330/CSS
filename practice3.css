@@ -62,6 +62,7 @@ a:hover{
     align-items: center;
     gap: 80px;
     margin: 0 auto;
+    padding: 0 57px 0 57px;
 }
 
 .design-main{
@@ -79,7 +80,6 @@ a:hover{
     align-items: center;
     max-width: 960px;
     margin-top: 80px;
-    padding: 0 57px 0 57px;
 }
 
 .contents-about2{
@@ -112,7 +112,6 @@ a:hover{
     flex-direction: column;
     align-items: center;
     max-width: 960px;
-    padding: 0 57px 0 57px;
 }
 
 .contents-works3{
@@ -127,7 +126,7 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 30px;
+    margin-top: 30px;
 }
 
 .image-container img {
@@ -140,7 +139,7 @@ a:hover{
     align-items: center;
     flex-direction: column;
     max-width: 960px;
-    width: 80%;
+    width: 100%;
 }
 
 .contents-newstitle{
@@ -152,7 +151,6 @@ a:hover{
 
 .news-main{
     width: 100%;
-    padding: 30px 57px;
 }
 
 .news-main1{
@@ -186,6 +184,7 @@ a:hover{
     flex-direction: column;
     max-width: 960px;
     margin-bottom: 130px;
+    width: 100%;
 }
 
 .contents-contact-h2{
@@ -199,10 +198,19 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 14px;
+}
+
+.lable-name{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .contact-name{
-    width: 10%;
+    width: 20%;
 }
 
 .name-box{
@@ -215,8 +223,13 @@ a:hover{
     height: 35px;
 }
 
+.lable-mail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 .contact-mail{
-    width: 10%;
+    width: 20%;
 }
 
 .mail-box{
@@ -229,8 +242,13 @@ a:hover{
     height: 35px;
 }
 
+.lable-message{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 .contact-message{
-    width: 10%;
+    width: 20%;
 }
 
 .message-box{
@@ -294,6 +312,7 @@ a:hover{
     margin: 0;
     max-width: 768px;
     min-width: 391px;
+    padding: 0 40px;
 }
 
 
@@ -311,17 +330,9 @@ a:hover{
     padding: 0 30px 0 30px;
 }
 
-.contents-works2{
-    width: 80%;
-}
 
 .image-container{
     width: 100%;
-}
-
-.news-main{
-    width: 85%;
-    padding: 0 30px;
 }
 
 .news-main2{
@@ -334,11 +345,6 @@ a:hover{
     width: 80%;
     border-top: none;
     font-size: 14px;
-}
-
-
-.contents-contact3{
-    padding: 0 30px 0 30px;
 }
 }
 
@@ -445,9 +451,14 @@ a:hover{
     border-top: none;
 }
 
+.news-main4 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
 .contents-contact3{
     width: 100%;
-    padding: 0;
     max-width: 390px;
     margin-bottom: 70px;
 }
@@ -461,14 +472,26 @@ a:hover{
     width: 100%;
 }
 
+.lable-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.lable-mail{
+    display: flex;
+    flex-direction: column;
+}
+
+.lable-message{
+    display: flex;
+    flex-direction: column;
+}
 .contact-name{
     width: 100%;
 }
 
 .name-box{
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 .contact-mail{
@@ -477,8 +500,6 @@ a:hover{
 
 .mail-box{
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 .contact-message{

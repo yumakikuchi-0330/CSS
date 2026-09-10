@@ -152,14 +152,13 @@ a:hover{
 
 .news-main{
     width: 100%;
-    border-top: 1px solid #C8C8C8;
     margin-top: 30px;
 }
 
 .news-main1{
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid #C8C8C8;
+    border-top: 1px solid #C8C8C8;
     font-size: 14px;
 }
 
@@ -171,6 +170,14 @@ a:hover{
 .news-main3 {
     padding: 15px;
     width: 80%;
+}
+
+.news-main4{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #C8C8C8;
+    border-top: 1px solid #C8C8C8;
+    font-size: 14px;
 }
 
 .contents-contact3{
@@ -314,6 +321,7 @@ a:hover{
 
 .news-main{
     width: 85%;
+    padding: 0 30px;
 }
 
 .news-main2{
@@ -414,9 +422,12 @@ a:hover{
 .contents-news2{
     max-width: 390px;
 }
+
 .news-main{
     width: 100%;
+    padding: 0;
 }
+
 .news-main1{
     display: flex;
     flex-direction:column;
@@ -451,7 +462,7 @@ a:hover{
 }
 
 .contact-name{
-    width: 15%;
+    width: 100%;
 }
 
 .name-box{
@@ -461,7 +472,7 @@ a:hover{
 }
 
 .contact-mail{
-    width: 15%;
+    width: 100%;
 }
 
 .mail-box{
@@ -471,7 +482,7 @@ a:hover{
 }
 
 .contact-message{
-    width: 15%;
+    width: 100%;
 }
 
 .message-box{
